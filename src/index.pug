@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title THREE.js Camera movements
+
+    meta(name="viewport" content="width=device-width, user-scalable=no")
+
+    link(rel="stylesheet" href="ui.css")
+    script(defer src="three.min.js")
+    script(defer src="index.min.js")
+
+  body
+    noscript
+      p This page requires Javascript and WebGL. Please enable them in your
+        browser or use a modern browser.
+    p.error#no-webgl.hidden.
+      This page requires WebGL. WebGL should be enabled by default on modern
+      browsers like Firefox or Chrome.
+    p.error#generic-error.hidden.
+      An error occured. Please reload the page. If the problem subsists,
+      please contact the website's author to report it.
+
+    .ui
+      button(data-waypoint=0) Camera at A
+      button(data-waypoint=1) Camera at B
+      button(data-waypoint=2) Camera at C

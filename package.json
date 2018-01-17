@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "rollup": "^0.54.0",
+    "rollup-plugin-butternut": "^0.1.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "three": "^0.89.0"
+  }
+}
